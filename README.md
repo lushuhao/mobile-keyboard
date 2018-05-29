@@ -1,8 +1,8 @@
 # SafeKeyboard 安全键盘
 
-[![npm](https://img.shields.io/npm/v/digital-keyboard.svg)](https://www.npmjs.com/package/safe-keyboard)
-[![npm](https://img.shields.io/npm/dt/digital-keyboard.svg)](https://www.npmjs.com/package/safe-keyboard)
-[![GitHub license](https://img.shields.io/github/license/simbawus/DigitalKeyboard.svg)](https://github.com/lushuhao/SafeKeyboard/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/v/mobile-keyboard.svg)](https://www.npmjs.com/package/mobile-keyboard)
+[![npm](https://img.shields.io/npm/dt/mobile-keyboard.svg)](https://www.npmjs.com/package/mobile-keyboard)
+[![GitHub license](https://img.shields.io/github/license/lushuhao/mobile-keyboard.svg)](https://github.com/lushuhao/mobile-keyboard/blob/master/LICENSE)
 
 - ES6开发、不依赖任何框架和库的轻量级移动端安全键盘
 - 支持顺序和乱序输入
@@ -12,7 +12,7 @@
 ### 安装
 
 ```shell
-npm digital-keyboard --dev
+npm i -D mobile-keyboard
 ```
 
 ### 使用示例
@@ -105,4 +105,4 @@ const safeKeyBoard = new SafeKeyboard(
 
 ## 开源证书
 
-[**The SIC License**](http://opensource.org/licenses/SIC).
+[**The MIT License**](http://opensource.org/licenses/MIT).

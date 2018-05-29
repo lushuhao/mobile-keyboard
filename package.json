@@ -1,32 +1,32 @@
 {
-  "name": "safe-keyboard",
-  "version": "0.0.1",
-  "description": "安全键盘",
+  "name": "mobile-keyboard",
+  "version": "0.0.2",
+  "description": "移动端键盘",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --config ./config/webpack.config.js --mode=development",
-    "build": "cross-env NODE_ENV=production webpack --config ./config/webpack.config.js --mode=production",
+    "dev": "webpack-dev-server --config ./config/webpack.config.js --mode=development",
+    "build": "webpack --config ./config/webpack.config.js --mode=production",
     "clean": "rimraf dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lushuhao/safe-keyboard.git"
+    "url": "git+https://github.com/lushuhao/mobile-keyboard.git"
   },
   "keywords": [
     "keyboard"
   ],
   "author": "lushuhao",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lushuhao/safe-keyboard/issues"
+    "url": "https://github.com/lushuhao/mobile-keyboard/issues"
   },
-  "homepage": "https://github.com/lushuhao/safe-keyboard#readme",
+  "homepage": "https://github.com/lushuhao/mobile-keyboard#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.7.0",
-    "cross-env": "^5.1.6",
+    "babel-preset-es2016": "^6.24.1",
     "css-loader": "^0.28.11",
     "node-sass": "^4.9.0",
     "rimraf": "^2.6.2",

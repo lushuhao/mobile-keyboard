@@ -19,11 +19,9 @@ inputWrapper.addEventListener('click', (e) => {
   safeKeyBoard.showKeyBoard();
 })
 
-const safeKeyBoard = new SafeKeyboard(
-  {
+const safeKeyBoard = new SafeKeyboard({
     el: document.querySelector('#app'),
     type: 'random',
     className: 'container',
     outputValue: outputValue
-  }
-);
+  });
