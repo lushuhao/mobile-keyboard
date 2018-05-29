@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>安全键盘</title>
+
+  <style>
+    body {
+      margin: 0;
+    }
+
+    @keyframes typing {
+      from {width: 0}
+    }
+
+    @keyframes caret {
+      50% {border-color: transparent;}
+    }
+    
+    .inputWrapper {
+      display: flex;
+      align-items: center;
+      border: 1px solid #ececec;
+      padding: 0 5px;
+      line-height: 30px;
+      margin: 10px 20px;
+      width: 50%;
+    }
+
+    #values {
+      display: inline-block;
+      border-right: .05em solid;
+      width: 1px;
+      height: 1em;
+      line-height: 1;
+      -webkit-animation: typing 6s, caret 1s infinite;
+      -o-animation: typing 6s, caret 1s infinite;
+      animation: typing 6s, caret 1s infinite;
+    }
+  </style>
+</head>
+<body>
+<div class="inputWrapper">请输入：
+  <div id="values"></div>
+</div>
+<div id="app"></div>
+<script src="./SafeKeyBoard.js"></script>
+</body>
+</html>
