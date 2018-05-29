@@ -1,4 +1,4 @@
-# SafeKeyboard 安全键盘
+# MobileKeyboard 移动端键盘
 
 [![npm](https://img.shields.io/npm/v/mobile-keyboard.svg)](https://www.npmjs.com/package/mobile-keyboard)
 [![npm](https://img.shields.io/npm/dt/mobile-keyboard.svg)](https://www.npmjs.com/package/mobile-keyboard)
